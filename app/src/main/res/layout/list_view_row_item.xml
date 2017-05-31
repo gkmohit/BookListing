@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/max_thumbnail_width"
+        android:layout_height="@dimen/max_thumbnail_height"
+        android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_3"
+            android:text="@string/book_title"
+            />
+
+        <TextView
+            android:id="@+id/titleTV"
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/placeholder_text"
+            />
+
+        <TextView
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_3"
+            android:text="@string/author_name"/>
+
+        <TextView
+            android:id="@+id/authorsNameTV"
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/placeholder_text"/>
+
+        <TextView
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_3"
+            android:text="@string/publisher"/>
+
+        <TextView
+            android:id="@+id/publisherTV"
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/placeholder_text"/>
+
+        <TextView
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_3"
+            android:text="@string/published_date"/>
+
+        <TextView
+            android:id="@+id/publishedDateTV"
+            style="@style/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/placeholder_text"/>
+    </LinearLayout>
+</LinearLayout>
