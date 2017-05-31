@@ -8,6 +8,7 @@
     >
 
     <ImageView
+        android:id="@+id/bookThumbnail"
         android:layout_width="@dimen/max_thumbnail_width"
         android:layout_height="@dimen/max_thumbnail_height"
         android:layout_gravity="center_vertical"/>
